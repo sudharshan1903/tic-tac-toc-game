@@ -76,8 +76,6 @@ console.log(winner,"winnerssssss");
   return (
     <div className="container-box">
       <div className="box-model">
-      <div className='row'>
-          </div>
         <div className="square">
           {data.map((item, index) => (
             <button

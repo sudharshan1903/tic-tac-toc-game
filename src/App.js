@@ -5,7 +5,7 @@ import TicTacToe from './game/TicTacToe';
 function App() {
   return (
     <div className="App">
-     <h1>Tic Tac Toe Game</h1>
+     <h1 style={{color:"#2c3e50", fontWeight:"700" }}>TIC TAC TOE GAME</h1>
      <TicTacToe/>
     </div>
   );
