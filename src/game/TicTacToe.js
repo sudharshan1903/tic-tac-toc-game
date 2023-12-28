@@ -88,13 +88,13 @@ console.log(winner,"winnerssssss");
             </button>
           ))}
         </div>
-        <div className='playerTurns'>
+        <div className='playerTurns animate__animated animate__jello animate__infinite infinite  animate__slower'>
           <h1 style={{color:"whitesmoke"}}>{winner===null &&!isDraw ? currentPlayer ? "X TURN":"O TURN":""}</h1>
         </div>
         <div className="game-over-message">
            {isOver && ( 
             <div>
-              <h1 style={{color:"coral"}}>
+              <h1 className='animate__animated animate__jello animate__infinite infinite animate__slower' style={{color:"coral"}}>
               {winner ? `Player ${winner} won!` : "It's a draw!"}
               </h1>
               <button className='restartGame' onClick={restartGame}>Play Again</button>
